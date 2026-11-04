@@ -136,3 +136,134 @@ p{
 
 
 
+/* EMPLOYEE DASHBOARD STYLES */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    background-color: #16A34A;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: #12863d;
+}
+
+.nav li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    font-weight: 200;
+}
+
+.employee-count {
+    margin-top: 50px;
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.employee-count p {
+    margin: 0;
+}
+
+.employee-count h3 {
+    margin: 10px 0 0 0;
+}
+
+
+.Schedule {
+    margin-top: 50px;
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    ;
+}
+
+.Schedule p {
+    margin: 0;
+}
+
+.Schedule h3 {
+    margin: 10px 0 0 0;
+}
+
+
+.Present {
+    margin-top: 50px;
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.Present p {
+    margin: 0;
+}
+
+.Present h3 {
+    margin: 10px 0 0 0;
+}
+
+
+
+.req {
+    margin-top: 50px;
+    width: 300px;
+    padding: 25px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+}
+
+.req p {
+    margin: 0;
+}
+
+.req h3 {
+    margin: 10px 0 0 0;
+}
+
+
+.top{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: -20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.ts{
+    width: 700px;
+    padding: 50px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    display: block;
+    margin: 50px auto; 
+}
