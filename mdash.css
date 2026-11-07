@@ -1,3 +1,9 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
 .employee-count {
     margin-top: 50px;
     width: 300px;
@@ -5,14 +11,19 @@
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .employee-count p {
     margin: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 .employee-count h3 {
-    margin: 10px 0 0 0;
+    margin: 12px ;
+    font-size: 30px;
+    color: #245c3a;
 }
 
 
@@ -23,15 +34,19 @@
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 20px;
-    ;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .Schedule p {
     margin: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 .Schedule h3 {
-    margin: 10px 0 0 0;
+    margin: 12px ;
+    font-size: 30px;
+    color: #245c3a;
 }
 
 
@@ -42,16 +57,20 @@
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .Present p {
     margin: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 .Present h3 {
-    margin: 10px 0 0 0;
+    margin: 12px;
+    font-size: 30px;
+    color: #245c3a;
 }
-
 
 
 .req {
@@ -61,30 +80,35 @@
     background-color: white;
     border: 1px solid lightgray;
     border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 .req p {
     margin: 0;
+    font-size: 16px;
+    color: #666;
 }
 
 .req h3 {
-    margin: 10px 0 0 0;
+    margin: 12px;
+    font-size: 30px;
+    color: #245c3a;
 }
 
 
-.top{
+
+.top {
     display: flex;
     justify-content: center;
     gap: 100px;
     margin: -20px;
 }
 
-.bottom{
+.bottom {
     display: flex;
     justify-content: center;
     gap: 100px;
 }
-
 
 
 .nav ul {
@@ -92,8 +116,7 @@
     gap: 10px;
     padding: 10px;
     background-color: white;
-    list-style-type:none;
-
+    list-style-type: none;
 }
 
 .nav li {
@@ -110,76 +133,63 @@
     text-decoration: none;
 }
 
-.nav a:hover{
+.nav a:hover {
     background-color: #12863d;
 }
 
-.title{
-    margin-left: 30px;
-    margin-top: -5px;
+
+.title {
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 0;
+    font-size: 32px;
+    color: #245c3a;
 }
 
-#under-title{
-    font-size: 14px;
-    margin-top: -20PX;
+#under-title {
+    font-size: 16px;
+    margin-top: 8px;
     color: rgb(99, 98, 98);
-    margin-left: 30px;
-}
-.mhead{
-    margin-top:-20px;
+    text-align: center;
+    margin-left: 0;
 }
 
-.firstbg{
-    background-color: rgb(242, 242, 242);;
+.mhead {
+    margin-top: 0;
+    text-align: center;
+}
+
+
+
+.firstbg {
+    background-color: rgb(242, 242, 242);
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 20px;
     padding: 30px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
 }
 
 
-
-
-.ts{
-    
-    
+.ts {
     margin-top: 20px;
     margin-right: 30px;
     margin-left: 30px;
     padding: 50px;
-    background-color:rgb(242, 242, 242);
+    background-color: rgb(242, 242, 242);
     border-radius: 20px;
-    
-    
-    
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.05);
 }
 
-.ts h2{
-    font-family:Georgia;
-
+.ts h2 {
+    font-family: Georgia;
 }
 
-#block{
-    background-color: #000;
-    color: #fff;
-    border: none;
-    border-radius: 50px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: 600;
-    font-family: Arial, sans-serif;
-    cursor: pointer;
-    transition: 0.3s;
-    
-}
+
+
 
 #block {
-    display: flex;
-    justify-content: flex-end;
-}
-
-#block {
-    background: #000;
+    background: #245c3a;
     color: white;
     border: none;
     border-radius: 30px;
@@ -190,6 +200,9 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+
+
 
 .datebox {
     display: flex;
@@ -202,11 +215,12 @@
     box-sizing: border-box;
     background: white;
     gap: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
 }
 
 .calendar {
     font-size: 19px;
-    color: #111;
+    color: #245c3a;
 }
 
 .datebox input {
@@ -221,21 +235,24 @@
 }
 
 
-.emp1{
-    background-color:white;
+
+
+.emp1 {
+    background-color: white;
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 20px;
     padding: 30px;
-    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-#name1{
+#name1 {
     margin-top: -35px;
     padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -20px;
 }
-
-
 
 .shift-container {
     float: right;
@@ -247,49 +264,43 @@
     font-size: 14px;
     padding: 5px 12px;
     border-radius: 20px;
-
-
-}
-#name1{
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: -20px;
 }
 
-#t1{
-    color: blue;
+#t1 {
+    color: #245c3a;
     font-size: 25px;
     margin-bottom: -65px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
+p {
     margin-top: 70px;
-    font-size: 10;
+    font-size: 10px;
 }
 
-.adjust{
+.adjust {
     margin-top: 25px;
 }
 
 
 
 
-.emp2{
-    background-color:white;
+.emp2 {
+    background-color: white;
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 20px;
     padding: 30px;
-    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-#name2{
+#name2 {
     margin-top: -35px;
     padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -20px;
 }
-
-
 
 .shift-container2 {
     float: right;
@@ -301,48 +312,36 @@ p{
     font-size: 14px;
     padding: 5px 12px;
     border-radius: 20px;
-
-
-}
-#name2{
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: -20px;
 }
 
-#t2{
-    color: blue;
+#t2 {
+    color: #245c3a;
     font-size: 25px;
     margin-bottom: -65px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    margin-top: 70px;
-    font-size: 10;
-}
-
-.adjust2{
+.adjust2 {
     margin-top: 25px;
 }
 
 
-
-.emp3{
-    background-color:white;
+.emp3 {
+    background-color: white;
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 20px;
     padding: 30px;
-    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-#name3{
+#name3 {
     margin-top: -35px;
     padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -20px;
 }
-
-
 
 .shift-container3 {
     float: right;
@@ -354,48 +353,38 @@ p{
     font-size: 14px;
     padding: 5px 12px;
     border-radius: 20px;
-
-
-}
-#name3{
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: -20px;
 }
 
-#t3{
-    color: blue;
+#t3 {
+    color: #245c3a;
     font-size: 25px;
     margin-bottom: -65px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    margin-top: 70px;
-    font-size: 10;
-}
-
-.adjust3{
+.adjust3 {
     margin-top: 25px;
 }
 
 
 
-.emp4{
-    background-color:white;
+
+.emp4 {
+    background-color: white;
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 20px;
     padding: 30px;
-    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-#name4{
+#name4 {
     margin-top: -35px;
     padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -20px;
 }
-
-
 
 .shift-container4 {
     float: right;
@@ -407,50 +396,38 @@ p{
     font-size: 14px;
     padding: 5px 12px;
     border-radius: 20px;
-
-
-}
-#name4{
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: -20px;
 }
 
-#t4{
-    color: blue;
+#t4 {
+    color: #245c3a;
     font-size: 25px;
     margin-bottom: -65px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    margin-top: 70px;
-    font-size: 10;
-}
-
-.adjust4{
+.adjust4 {
     margin-top: 25px;
 }
 
 
 
 
-
-.emp5{
-    background-color:white;
+.emp5 {
+    background-color: white;
     margin-right: 30px;
     margin-left: 30px;
     border-radius: 20px;
     padding: 30px;
-    
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
 }
 
-#name5{
+#name5 {
     margin-top: -35px;
     padding: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: -20px;
 }
-
-
 
 .shift-container5 {
     float: right;
@@ -462,29 +439,18 @@ p{
     font-size: 14px;
     padding: 5px 12px;
     border-radius: 20px;
-
-
-}
-#name5{
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: -20px;
 }
 
-#t5{
-    color: blue;
+#t5 {
+    color: #245c3a;
     font-size: 25px;
     margin-bottom: -65px;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-    margin-top: 70px;
-    font-size: 10;
-}
-
-.adjust5{
+.adjust5 {
     margin-top: 25px;
 }
+
 
 /* END OF MANAGER DASHBOARD */

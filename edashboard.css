@@ -1,0 +1,133 @@
+body {
+    margin: 10px;
+    font-family: Georgia;
+    background-color: white;
+}
+
+.title {
+    text-align: center;
+    color: #245c3a;
+    font-size: 35px;
+}
+
+.subtitle {
+    text-align: center;
+    color: gray;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.nav a {
+    background-color: #16A34A;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    border-radius: 15px;
+    width: 180px;
+    text-align: center;
+}
+
+.nav a:hover {
+    background-color: #12863d;
+}
+
+.main {
+    background-color: rgb(242,242,242);
+    margin: 30px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    background-color: white;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0 3px 12px rgba(50,80,60,0.10);
+}
+
+.box h2 {
+    color: #245c3a;
+}
+
+.schedule {
+    background-color: rgb(242,242,242);
+    margin: 30px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.schedule h2 {
+    color: black;
+}
+
+.schedule input {
+    width: 95%;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid lightgray;
+}
+
+.duty {
+    background-color: white;
+    padding: 25px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.duty h2 {
+    color: #245c3a;
+}
+
+.duty span {
+    background-color: #d1f2e3;
+    color: green;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.attendance {
+    background-color: rgb(242,242,242);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.leave {
+    background-color: rgb(242,242,242);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.leave input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.leave button {
+    background-color: #16A34A;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+}
+
+.profile {
+    background-color: rgb(242,242,242);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+}

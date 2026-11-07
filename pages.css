@@ -1,0 +1,229 @@
+/* GENERAL PAGE */
+
+body {
+    margin: 10px;
+    background-color: white;
+    font-family: Georgia;
+}
+
+
+/* MAIN HEADING */
+
+.title {
+    text-align: center;
+    color: #245c3a;
+    font-size: 35px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+#under-title {
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
+
+/* NAVIGATION BAR */
+
+.nav ul {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    background-color: white;
+    list-style-type: none;
+}
+
+.nav li {
+    flex: 1;
+}
+
+.nav a {
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    background: #16A34A;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    background-color: #12863d;
+}
+
+
+/* MAIN BACKGROUND */
+
+.firstbg {
+    background-color: rgb(242, 242, 242);
+    margin: 30px;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 3px 12px rgba(50, 80, 60, 0.10);
+}
+
+
+/* TABLE DESIGN */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #245c3a;
+    color: white;
+    padding: 18px;
+    font-size: 16px;
+}
+
+td {
+    padding: 18px;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:hover {
+    background-color: #f1f8f3;
+}
+
+
+/* DUTY SCHEDULE BACKGROUND */
+
+.ts {
+    background-color: rgb(242, 242, 242);
+    margin: 30px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 3px 12px rgba(50, 80, 60, 0.10);
+}
+
+.ts h1 {
+    color: #245c3a;
+}
+
+
+/* DATE BOX */
+
+input[type="date"] {
+    padding: 15px;
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    background-color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+
+/* EMPLOYEE DUTY CARDS */
+
+.emp1,
+.emp2,
+.emp3,
+.emp4,
+.emp5 {
+    background-color: white;
+    margin: 20px 0;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 3px 12px rgba(50, 80, 60, 0.10);
+}
+
+
+/* EMPLOYEE NAME */
+
+.emp1 h3,
+.emp2 h3,
+.emp3 h3,
+.emp4 h3,
+.emp5 h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+
+/* DUTY TIME */
+
+#t1,
+#t2,
+#t3,
+#t4,
+#t5 {
+    color: #245c3a;
+    font-size: 26px;
+    font-family: Arial;
+    margin-bottom: 10px;
+}
+
+
+/* SHIFT NAME */
+
+.emp1 span,
+.emp2 span,
+.emp3 span,
+.emp4 span,
+.emp5 span {
+    background-color: #d1f2e3;
+    color: #008c45;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+
+/* PARAGRAPHS */
+
+.firstbg p,
+.ts p {
+    font-size: 15px;
+    color: #555;
+    margin-top: 10px;
+}
+
+
+/* LEAVE AND ATTENDANCE HEADINGS */
+
+.firstbg h2 {
+    color: #245c3a;
+    margin-top: 30px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 768px) {
+
+    .nav ul {
+        flex-wrap: wrap;
+    }
+
+    .nav li {
+        flex: 1 1 30%;
+    }
+
+    .firstbg,
+    .ts {
+        margin: 10px;
+        padding: 20px;
+        overflow-x: auto;
+    }
+
+    table {
+        min-width: 600px;
+    }
+
+    .title {
+        font-size: 26px;
+    }
+
+}
