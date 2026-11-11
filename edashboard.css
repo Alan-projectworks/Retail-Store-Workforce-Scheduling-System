@@ -125,9 +125,18 @@ body {
     border-radius: 10px;
 }
 
+.leave button:hover{
+    background-color: #12863d;
+
+}
+
 .profile {
     background-color: rgb(242,242,242);
     margin: 30px;
     padding: 30px;
     border-radius: 20px;
+}
+
+#btnL{
+    cursor: pointer;
 }
