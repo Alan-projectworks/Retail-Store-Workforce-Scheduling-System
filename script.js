@@ -1,8 +1,7 @@
-// Simple JavaScript for Retail Store Management
+
 
 document.addEventListener("DOMContentLoaded", function () {
 
-    // EMPLOYEE LEAVE REQUEST
 
     var leaveSection = document.querySelector(".leave");
 
@@ -47,9 +46,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
-
-    // SHOW LEAVE REQUESTS ON MANAGER PAGE
-
     var tables = document.querySelectorAll(".firstbg table");
 
     if (tables.length > 1) {
@@ -77,7 +73,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    // EMPLOYEE SCHEDULE DATE
 
     var scheduleDate = document.querySelector(".schedule input[type='date']");
 
@@ -92,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-    // MANAGER SCHEDULE DATE
 
     var managerDate = document.querySelector(".ts input[type='date']");
 
